@@ -1,0 +1,32 @@
+.infoItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  border: 1px solid beige;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.infoWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.imgWrap {
+  margin-right: auto;
+  margin-left: auto;
+}
+.img {
+  width: 100%;
+  height: 580px;
+  object-fit: contain;
+}
+
+.modalWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

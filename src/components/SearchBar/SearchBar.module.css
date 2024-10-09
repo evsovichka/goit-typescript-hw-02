@@ -1,0 +1,33 @@
+.header {
+  background-color: rgb(165, 118, 210);
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.input {
+  color: rgb(58, 18, 96);
+  width: 450px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  color: beige;
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
